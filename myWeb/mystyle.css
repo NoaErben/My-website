@@ -86,7 +86,6 @@ nav ul li a:hover {
         font-size: 24px;
         color: #fff; /* White color */
         margin-right: auto;
-        /*text-align: left;*/
 }
 
 .hello-text{
@@ -122,10 +121,6 @@ nav ul li a:hover {
 }
 
 .army-picture {
-    /*width: 420px; !* Adjust the width as needed *!*/
-    /*height: 400px; !* Adjust the height as needed *!*/
-    /*border-radius: 50%; !* Make the image round *!*/
-
     object-fit: cover;
     height: 20rem;
     margin: 2rem;
@@ -139,13 +134,6 @@ nav ul li a:hover {
     margin-left: auto;
     margin-right: auto;
 
-    /*width: 250px; !* Adjust the width as needed *!*/
-    /*height: 325px; !* Adjust the height as needed *!*/
-    /*border-radius: 50%; !* Make the image round *!*/
-    /*border: 5px solid #fff; !* Add a border around the image *!*/
-    /*box-shadow: 0 0 10px rgba(0, 0, 0, 0.2); !* Add a shadow effect *!*/
-    /*justify-content: center; !* Center the images horizontally *!*/
-    /*align-items: center; !* Center the images vertically *!*/
 }
 
 .clear{
@@ -205,8 +193,8 @@ button:focus{
     margin-left: auto;
     margin-right: auto;
     text-align: center;
-    color: #1678B5FF;
-    font-size: 7rem;
+    color: black;
+    font-size: 6rem;
 }
 
 .game-heading {
@@ -246,6 +234,30 @@ input[type=submit] {
 
 input[type=submit]:hover {
     background-color: #001060FF;
+}
+
+.logo-container{
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+    align-items: center;
+    padding: 20px;
+}
+
+.work-picture{
+        /*width: 420px; !* Adjust the width as needed *!*/
+        /*height: 400px; !* Adjust the height as needed *!*/
+        /*border-radius: 50%; !* Make the image round *!*/
+        object-fit: cover;
+        width: 30rem;
+        margin: 2rem;
+        border: 5px solid #fff; /* Add a border around the image */
+        box-shadow: 0 0 10px rgba(0, 0, 0, 0.2); /* Add a shadow effect */
+        margin-left: auto;
+        margin-right: auto;
+        text-align: center;
+        align-items: center;
+
 }
 
 

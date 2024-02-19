@@ -1,11 +1,6 @@
 let selectedWord;
 let shuffleWord;
 
-function paint(color) {
-    const circle = document.getElementById('circleID');
-    circle.style = `background-color:${color}`;
-}
-
 function startGame() {
     document.getElementById("fguess").value = "";
     const wordList = ["hello", "html", "css", "noa" , "computer" , "university", "friends"];
